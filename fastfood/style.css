@@ -1,7 +1,13 @@
-header img{
-    width: 100px;
-
+.logo{
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    padding: 5px;
 }
+.logo span{
+    margin: 15px 0 0 12px;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -10,7 +16,7 @@ body {
 header {
     background: #151413;
     color: white;
-    padding: 15px;
+    padding: 10px 0 0 5px;
     display: flex;
     justify-content: space-between;
 }
@@ -27,14 +33,18 @@ header {
 }
 
 .menu li:not(:last-child)::after{
-    content: " | ";
+    content: "|";
     color: rgb(109, 107, 107);
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 15px;
+    margin: 15px ;
+}
+
+nav{
+    margin-top: 0px;
 }
 
 .banner {

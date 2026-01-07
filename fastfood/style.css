@@ -1,0 +1,55 @@
+header img{
+    width: 100px;
+
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #151413;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li:not(:last-child)::after{
+    content: " | ";
+    color: rgb(109, 107, 107);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.banner {
+    background: url('../img/banner.jpg') no-repeat center;
+    padding: 80px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.produtos > h2 {
+    text-align: center;
+}

@@ -1,3 +1,11 @@
+body{
+    background-image: url('img/ChatGPT\ Image\ 7_01_2026\,\ 00_44_34.png');
+    color: white;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
 .logo{
     padding:0px;
     margin: 0px;
@@ -26,6 +34,7 @@ header {
     padding: 0;
     margin: 0;
     display: flex;
+    max-width: 400px;
 }
 
 .menu li{
@@ -48,7 +57,7 @@ nav{
 }
 
 .banner {
-    background: url('img/pattern002.png') no-repeat center;
+    background: url('img/pattern002.pg') no-repeat center;
     padding: 80px;
     color: white;
     text-align: center;
@@ -62,4 +71,39 @@ footer {
 }
 .produtos > h2 {
     text-align: center;
+}
+section.produtos>h5{
+    text-align: center
+    ;
+}
+div.card{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+div#c1{
+    background-image: url("img/melhores\ selecoes/hamburguer.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+div#c2{
+    background-image: url("img/melhores\ selecoes/Imagem WhatsApp 2025-09-14 às 17.55.40_2e97df12.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+div#c3{
+    background-image: url("img/melhores\ selecoes/Imagem WhatsApp 2025-09-14 às 17.55.40_2562eb86.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+div#c4{
+    background-image: url("img/melhores\ selecoes/Imagem WhatsApp 2025-09-14 às 17.55.40_18539a34.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
 }
